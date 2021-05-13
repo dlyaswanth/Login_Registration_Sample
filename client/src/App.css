@@ -1,0 +1,58 @@
+input[type=email]{
+  outline: none !important;
+  border-bottom: none !important;
+}
+input[type=email]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+input[type=text]{
+  outline: none !important;
+  border-bottom: none !important;
+}
+input[type=text]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+input[type=password]{
+  outline: none;
+  border-bottom: none !important;
+}
+input[type=password]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+.btlogin{
+  color: black !important;
+  background-color:whitesmoke !important;
+  border-color: grey !important ;
+  padding: 10px 17px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor:pointer;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  border-width: 3px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+}
+.btlogin:hover{
+  background-color: grey !important;
+  color:whitesmoke !important;
+}
+.cn1{
+  margin-top: 10px !important;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 450px;
+  max-height: fit-content;
+  width:100% !important;
+  border-style: ridge !important;
+  border-color: white !important;
+  color: grey !important;
+  background-color: whitesmoke;
+}
